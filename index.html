@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fish Institute Dashboard</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<img src="img/logo.png" height="21" width="160"/>
+	<ul>
+		<li><a href="map.html">Map</a>
+		</li><li class="active">Dashboard
+		</li><li><a href="data/Log.csv">View Data</a></li>
+	</ul>
+</header>
+<div id="loading">
+	<p>Loading...</p>
+</div>
+<div id="wrap">
+	<div class="sunburst"></div>
+	<div class="scatter1"></div>
+	<div class="scatter2"></div>
+	<footer>
+		<p>**Hover over Circular Graph to view Label and Count. Click on a section to Zoom in and Click on the center to Zoom out.</p>
+	</footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.min.js"></script>
+<script src="http://underscorejs.org/underscore-min.js"></script>
+<script src="lib/dimple.v2.3.0.min.js"></script>
+<script src="lib/home.js"></script>
+</body>
+</html>
